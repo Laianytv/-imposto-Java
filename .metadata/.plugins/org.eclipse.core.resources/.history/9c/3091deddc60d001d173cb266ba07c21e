@@ -1,0 +1,36 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Imposto {
+
+	public static void main(String[] args) {
+		 Locale.setDefault(Locale.US);
+		 Scanner sc = new Scanner(System.in);
+		 
+	double asalario, aservico, acapital, amedico, aeducacao;
+	
+	System.out.println("Renda anual com salário:");
+	asalario = sc.nextDouble();
+	System.out.println("Renda anual com prestação de serviço:");
+	aservico = sc.nextDouble();
+	System.out.println("Renda anual com ganho de capital:");
+	acapital = sc.nextDouble();
+	System.out.println("Gastos médicos:");
+	amedico = sc.nextDouble();
+	System.out.println("Gastos educacionais:");
+	aeducacao = sc.nextDouble();
+	
+	
+	
+	
+	
+		 
+
+		
+		
+		
+		
+		
+	}
+
+}

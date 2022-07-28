@@ -1,0 +1,56 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Imposto {
+
+	public static void main(String[] args) {
+		 Locale.setDefault(Locale.US);
+		 Scanner sc = new Scanner(System.in);
+		 
+	double asalario, aservico, acapital, amedico, aeducacao, rendaMensal, impostoSalario, porcentagem;
+	
+	System.out.print("Renda anual com salário:");
+	asalario = sc.nextDouble();
+	System.out.print("Renda anual com prestação de serviço:");
+	aservico = sc.nextDouble();
+	System.out.print("Renda anual com ganho de capital:");
+	acapital = sc.nextDouble();
+	System.out.print("Gastos médicos:");
+	amedico = sc.nextDouble();
+	System.out.print("Gastos educacionais:");
+	aeducacao = sc.nextDouble();
+	
+	System.out.println("RELATÓRIO DE IMPOSTO DE RENDA");
+	 rendaMensal =  asalario / 12;
+	 impostoSalario = 0;
+	 
+	if (rendaMensal < 3.000) {
+		impostoSalario = 0;
+	}
+	else if ( rendaMensal < 5.000){
+		porcentagem = 10;
+		impostoSalario = rendaMensal * porcentagem / 100;
+		}
+	else {
+		porcentagem = 20;
+		impostoSalario = rendaMensal * porcentagem /100;
+	}
+	
+	
+	System.out.println(impostoSalario);
+	
+	
+	
+	
+	
+	sc.close();
+		 
+
+		
+		
+		
+		
+		
+	}
+
+}

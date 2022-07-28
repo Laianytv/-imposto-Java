@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\PROJETOS\Programação Modera\Imposto de renda\.metadata\.plugins\org.eclipse.jdt.core
+2680077694.index
+1479279718.index
+1865797976.index
